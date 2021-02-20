@@ -11,5 +11,9 @@ class User:
         self.password = password
         self.root = root or "/"
 
-    def path(self, glue):
-        return pathlib.Path(self.root).joinpath(glue)
+    @property
+    def path(self):
+        return pathlib.Path(self.root)
+
+    def joinpath(self, glue):
+        return self.path.joinpath(glue)
