@@ -12,8 +12,8 @@ class User:
         self.root = root or "/"
 
     @property
-    def path(self):
+    def path(self)  -> pathlib.Path:
         return pathlib.Path(self.root)
 
-    def joinpath(self, glue):
+    def joinpath(self, glue: str) -> pathlib.Path:
         return self.path.joinpath(glue)
