@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b012657-d4ab-4934-8970-a6d446f3e7c1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/aiodav/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aiodav/views/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aiodav/views/node.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/views/mixins.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aiodav/views/node.py" beforeDir="false" afterPath="$PROJECT_DIR$/aiodav/views/node.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/views/test_get.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/views/test_get.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +66,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1613784905424</updated>
-      <workItem from="1613784918360" duration="1031000" />
+      <workItem from="1613784918360" duration="1512000" />
     </task>
     <servers />
   </component>
