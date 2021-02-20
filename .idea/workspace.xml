@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b012657-d4ab-4934-8970-a6d446f3e7c1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/tests/views/mixins.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aiodav/templates/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aiodav/templates/base_template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aiodav/templates/template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aiodav/user.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aiodav/views/node.py" beforeDir="false" afterPath="$PROJECT_DIR$/aiodav/views/node.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/views/test_get.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/views/test_get.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aiodav/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/aiodav/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +19,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Setup Script" />
+        <option value="HTML File" />
         <option value="Python Script" />
       </list>
     </option>
@@ -30,9 +34,16 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
@@ -66,7 +77,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1613784905424</updated>
-      <workItem from="1613784918360" duration="1512000" />
+      <workItem from="1613784918360" duration="2292000" />
     </task>
     <servers />
   </component>

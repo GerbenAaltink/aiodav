@@ -9,8 +9,9 @@ def print_hi(name):
     print(f"Hi, {name}")  # Press Ctrl+F8 to toggle the breakpoint.
 
 
-# Press the green button in the gutter to run the script.
 if __name__ == "__main__":
-    print_hi("PyCharm")
+    from aiohttp.web import run_app
+    from aiodav.app import create_app
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+    app = create_app(root="/")
+    run_app(app)
