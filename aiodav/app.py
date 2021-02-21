@@ -19,6 +19,6 @@ def create_app(users: Iterable[User] = None) -> web.Application:
     )
     app.router.add_view("/browser{tail:.+}", BrowserView)
     if not users:
-        users = [User("admin", "admin", "/")]
+        users = [User("admin", "admin", "/home/gerben")]
     app["users"] = users
     return app

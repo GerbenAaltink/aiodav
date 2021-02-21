@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d294f04-9ef3-4779-8f64-8d516e67cd79" name="Default Changelist" comment="" />
+    <list default="true" id="9d294f04-9ef3-4779-8f64-8d516e67cd79" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aiodav/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/aiodav/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aiodav/entry.py" beforeDir="false" afterPath="$PROJECT_DIR$/aiodav/entry.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aiodav/templates/browser.html" beforeDir="false" afterPath="$PROJECT_DIR$/aiodav/templates/browser.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aiodav/views/browser.py" beforeDir="false" afterPath="$PROJECT_DIR$/aiodav/views/browser.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,7 +52,7 @@
       <updated>1613808789805</updated>
       <workItem from="1613808794033" duration="3973000" />
       <workItem from="1613828424442" duration="2772000" />
-      <workItem from="1613868883572" duration="6217000" />
+      <workItem from="1613868883572" duration="8894000" />
     </task>
     <servers />
   </component>

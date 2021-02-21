@@ -4,13 +4,22 @@ from pathlib import PosixPath
 
 class Entry(pathlib.PosixPath):
 
-    _flavor = PosixPath
-
     @property
     def name(self):
         if not super().name:
             return "/"
         return super().name
+
+    @property
+    def parent(self):
+        return Entry(super().parent)
+
+    @property
+    def parents(self):
+        if self is self.parent:
+            return self
+        return self.parent
+
 
     @property
     def as_url(self):
