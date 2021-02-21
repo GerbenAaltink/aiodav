@@ -3,7 +3,6 @@ from pathlib import PosixPath
 
 
 class Entry(pathlib.PosixPath):
-
     @property
     def name(self):
         if not super().name:
@@ -19,7 +18,6 @@ class Entry(pathlib.PosixPath):
         if self is self.parent:
             return self
         return self.parent
-
 
     @property
     def as_url(self):

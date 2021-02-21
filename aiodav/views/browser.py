@@ -19,7 +19,6 @@ class BrowserView(View):
         if root.is_file():
             return FileResponse(root)
 
-
         files = []
         for file_ in root.joinpath(self.request.match_info.get("tail")).glob("*"):
             files.append(
