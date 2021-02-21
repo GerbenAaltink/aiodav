@@ -1,7 +1,7 @@
 from aiohttp.web import View
 
 
-class NodeView:
+class NodeView(View):
     def put(self):
         pass
 

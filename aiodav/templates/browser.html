@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ path.name or "/" }}</title>
+
+</head>
+<body>
+<table>
+    <thead></thead>
+    <tbody>
+    {% for f in path.glob('*') %}
+        <tr>
+            <td><a href="/browser/{{ f.relative_path(f.root) }}">{{ f.name }}</a></td>
+        </tr>
+        <tr>
+            <td>{{ f.suffix }}</td>
+        </tr>
+    {% endfor %}
+    </tbody>
+    <tfoot></tfoot>
+</table>
+</body>
+</html>

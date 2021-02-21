@@ -1,9 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2b012657-d4ab-4934-8970-a6d446f3e7c1" name="Default Changelist" comment="">
+    <list default="true" id="9d294f04-9ef3-4779-8f64-8d516e67cd79" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/aiodav/__main__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aiodav/entry.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aiodav/templates/browser.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aiodav/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aiodav/views/browser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/views/browser/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/views/node/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aiodav/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/aiodav/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aiodav/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/aiodav/app.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/aiodav/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/aiodav/user.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aiodav/views/node.py" beforeDir="false" afterPath="$PROJECT_DIR$/aiodav/views/node.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_user.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_user.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,7 +25,6 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Setup Script" />
         <option value="HTML File" />
         <option value="Python Script" />
       </list>
@@ -22,7 +33,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1oj0tMrIcF40gITcG96Wg6A3wDX" />
+  <component name="ProjectId" id="1ojnI6VYDuM3NAsUpRadVIv8uTN" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -40,39 +51,17 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
-  <component name="RunManager">
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
-      <module name="aiodav" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="2b012657-d4ab-4934-8970-a6d446f3e7c1" name="Default Changelist" comment="" />
-      <created>1613784905424</created>
+      <changelist id="9d294f04-9ef3-4779-8f64-8d516e67cd79" name="Default Changelist" comment="" />
+      <created>1613808789805</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1613784905424</updated>
-      <workItem from="1613784918360" duration="3849000" />
+      <updated>1613808789805</updated>
+      <workItem from="1613808794033" duration="3973000" />
+      <workItem from="1613828424442" duration="2772000" />
+      <workItem from="1613868883572" duration="6132000" />
     </task>
     <servers />
   </component>
@@ -89,16 +78,6 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/main.py</url>
-          <line>8</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

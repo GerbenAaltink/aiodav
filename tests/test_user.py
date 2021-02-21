@@ -9,6 +9,8 @@ def test_user_with_constructor():
     assert my_user.password == "user 2"
     assert my_user.root == "/tmp"
     assert my_user.path == pathlib.Path("/tmp")
+    assert my_user.base64 == "dXNlciAxOnVzZXIgMg=="
+    assert str(my_user) == "user 1:user 2"
 
 
 def test_user_without_constructor():
@@ -22,3 +24,5 @@ def test_user_without_constructor():
     assert my_user.root == "/home"
 
     assert my_user.path == pathlib.Path("/home")
+    assert my_user.base64 == "YW5vdGhlciB1c2VyOmFub3RoZXIgcGFzc3dvcmQ="
+    assert str(my_user) == "another user:another password"
