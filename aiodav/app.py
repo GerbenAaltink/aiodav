@@ -14,10 +14,11 @@ def create_app(users: Iterable[User] = None) -> web.Application:
     aiohttp_jinja2.setup(
         app,
         loader=jinja2.FileSystemLoader(
-            pathlib.Path(__file__).parent.joinpath('templates')
-        ))
-    app.router.add_view('/browser{tail:.+}', BrowserView)
+            pathlib.Path(__file__).parent.joinpath("templates")
+        ),
+    )
+    app.router.add_view("/browser{tail:.+}", BrowserView)
     if not users:
-        users = [User('admin', 'admin', '/')]
+        users = [User("admin", "admin", "/")]
     app["users"] = users
     return app

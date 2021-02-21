@@ -1,22 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d294f04-9ef3-4779-8f64-8d516e67cd79" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/aiodav/__main__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aiodav/entry.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aiodav/templates/browser.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aiodav/utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aiodav/views/browser.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/views/browser/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/views/node/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aiodav/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/aiodav/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aiodav/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/aiodav/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aiodav/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/aiodav/user.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aiodav/views/node.py" beforeDir="false" afterPath="$PROJECT_DIR$/aiodav/views/node.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_user.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_user.py" afterDir="false" />
-    </list>
+    <list default="true" id="9d294f04-9ef3-4779-8f64-8d516e67cd79" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,7 +46,7 @@
       <updated>1613808789805</updated>
       <workItem from="1613808794033" duration="3973000" />
       <workItem from="1613828424442" duration="2772000" />
-      <workItem from="1613868883572" duration="6132000" />
+      <workItem from="1613868883572" duration="6217000" />
     </task>
     <servers />
   </component>
