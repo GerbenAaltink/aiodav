@@ -3,31 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <title>{{ path.name or "/" }}</title>
-        <link href="https://fonts.googleapis.com/css2?family=Material+Icons"
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons"
           rel="stylesheet">
 </head>
 <body>
 <table>
     <thead>
-        <tr>
-{#  https://google.github.io/material-design-icons/#icon-font-for-the-web #}
-<span class="material-icons">face</span>
-            <th colspan="999">{{path.resolve()}}</th>
-        </tr>
+    <tr>
+        {#  https://google.github.io/material-design-icons/#icon-font-for-the-web #}
+        <span class="material-icons">face</span>
+        <th colspan="999">{{ path.resolve() }}</th>
+    </tr>
 
     </thead>
     <tbody>
     {% for f in path.glob('*') %}
         {# https://material.io/resources/icons/?style=baseline #}
         <tr>
-            {% if f.is_file() %}<td><span class="material-icons">file_download</span></td>{% endif %}
-            {% if f.is_dir() %}<td><span class="material-icons">folder_open</span></td>{% endif %}
-            <td><a href="/browser/{{ f.relative_path(f.root) }}">{{ f.name }}</a></td>
+            <td>
+                {% if f.is_file() %}<span class="material-icons">file_download</span>{% endif %}
+                {% if f.is_dir() %}<span class="material-icons">folder_open</span>{% endif %}
+                <span class="material-icons">delete_forever</span>
+                <span class="material-icons">mode_edit</span></td>
+            <td><a href="/browser/{{ f }}">{{ f.name }}</a></td>
             <td>{{ f.suffix }}</td>
             <td>
-                    <span class="material-icons">delete_forever</span>
-                <span class="material-icons">mode_edit</span>
-
             </td>
         </tr>
     {% endfor %}

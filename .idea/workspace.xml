@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d294f04-9ef3-4779-8f64-8d516e67cd79" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aiodav/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/aiodav/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aiodav/entry.py" beforeDir="false" afterPath="$PROJECT_DIR$/aiodav/entry.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/aiodav/templates/browser.html" beforeDir="false" afterPath="$PROJECT_DIR$/aiodav/templates/browser.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/aiodav/views/browser.py" beforeDir="false" afterPath="$PROJECT_DIR$/aiodav/views/browser.py" afterDir="false" />
     </list>
@@ -23,6 +22,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1ojnI6VYDuM3NAsUpRadVIv8uTN" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -52,7 +59,8 @@
       <updated>1613808789805</updated>
       <workItem from="1613808794033" duration="3973000" />
       <workItem from="1613828424442" duration="2772000" />
-      <workItem from="1613868883572" duration="8894000" />
+      <workItem from="1613868883572" duration="13208000" />
+      <workItem from="1614310704735" duration="3322000" />
     </task>
     <servers />
   </component>
