@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d294f04-9ef3-4779-8f64-8d516e67cd79" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/utils/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/utils/test_unixdate2httpdate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/utils/test_unixdate2iso8601.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aiodav/templates/browser.html" beforeDir="false" afterPath="$PROJECT_DIR$/aiodav/templates/browser.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aiodav/views/browser.py" beforeDir="false" afterPath="$PROJECT_DIR$/aiodav/views/browser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aiodav/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/aiodav/utils.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +61,9 @@
       <workItem from="1613808794033" duration="3973000" />
       <workItem from="1613828424442" duration="2772000" />
       <workItem from="1613868883572" duration="13208000" />
-      <workItem from="1614310704735" duration="3322000" />
+      <workItem from="1614310704735" duration="4898000" />
+      <workItem from="1614393438138" duration="256000" />
+      <workItem from="1614408977303" duration="894000" />
     </task>
     <servers />
   </component>
