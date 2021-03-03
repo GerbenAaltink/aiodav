@@ -17,7 +17,7 @@ class BrowserView(View):
 
         user = await self.resolve_user()
 
-        root = pathlib.Path(self.request.match_info.get("tail"))
+        root = user.joinpath(self.request.match_info.get("tail"))
         print(root)
 
         if root.is_file():
@@ -40,4 +40,4 @@ class BrowserView(View):
             files=files,
             path=root,
         )
-        return aiohttp_jinja2.render_template("browser.html", self.request, context)
+        return aiohttp_jinja2.render_template("browser__2.html", self.request, context)

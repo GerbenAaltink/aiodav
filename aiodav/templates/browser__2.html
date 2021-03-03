@@ -42,7 +42,21 @@
     </style>
 </head>
 <body>
-
+    <div class="flex-container">
+          {% for f in path.glob('j.mp4') %}
+        {# https://material.io/resources/icons/?style=baseline #}
+        <div>
+            <div>
+            <a href="/browser/{{ f }}">{{ f.name }}</a>
+             </div>
+              {% if f.is_file() %}<span class="material-icons">file_download</span>{% endif %}
+                {% if f.is_dir() %}<span class="material-icons">folder_open</span>{% endif %}
+                <span class="material-icons">delete_forever</span>
+                <span class="material-icons">mode_edit</span>
+            {{ f.suffix }}
+        </div>
+    {% endfor %}
+    </div>
 <table>
 
     <thead>
@@ -55,14 +69,30 @@
     </thead>
     <tbody>
     {% for f in path.glob('*') %}
+        {# https://material.io/resources/icons/?style=baseline #}
         <tr>
-        <td>
-        {% if f.is_file() %}<span class="material-icons">file_download</span>{% endif %}
+            <td>
+                 {% for f in path.glob('*') %}
+        {# https://material.io/resources/icons/?style=baseline #}
+        <tr>
+            <td>
+                {% if f.is_file() %}<span class="material-icons">file_download</span>{% endif %}
                 {% if f.is_dir() %}<span class="material-icons">folder_open</span>{% endif %}
                 <span class="material-icons">delete_forever</span>
                 <span class="material-icons">mode_edit</span></td>
             <td><a href="/browser/{{ f }}">{{ f.name }}</a></td>
             <td>{{ f.suffix }}</td>
+            <td>
+            </td>
+        </tr>
+    {% endfor %} {% if f.is_file() %}<span class="material-icons">file_download</span>{% endif %}
+                {% if f.is_dir() %}<span class="material-icons">folder_open</span>{% endif %}
+                <span class="material-icons">delete_forever</span>
+                <span class="material-icons">mode_edit</span></td>
+            <td><a href="/browser/{{ f }}">{{ f.name }}</a></td>
+            <td>{{ f.suffix }}</td>
+            <td>
+            </td>
         </tr>
     {% endfor %}
     </tbody>
